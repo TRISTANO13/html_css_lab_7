@@ -1,4 +1,4 @@
-fetch('https://your-github-username.github.io/cryptocurrency-data/your-json-file.json')
+fetch('https://tristano13.github.io/html_css_lab_7/crypto.json')
     .then(response => response.json())
     .then(data => {
         const cryptoContainer = document.getElementById('crypto-container');
